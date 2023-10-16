@@ -1,0 +1,23 @@
+I[14:13:04.611] clangd version 16.0.6
+I[14:13:04.612] Features: linux
+I[14:13:04.612] PID: 6670
+I[14:13:04.612] Working directory: /home/braeden/projects/brain_model
+I[14:13:04.612] argv[0]: /usr/bin/clangd
+I[14:13:04.612] Starting LSP over stdin/stdout
+I[14:13:04.612] <-- initialize(0)
+I[14:13:04.614] --> reply:initialize(0) 2 ms
+I[14:13:04.619] <-- initialized
+I[14:13:04.645] <-- textDocument/didOpen
+I[14:13:04.646] Failed to find compilation database for /home/braeden/projects/brain_model/test.cpp
+I[14:13:04.646] ASTWorker building file /home/braeden/projects/brain_model/test.cpp version 1 with command clangd fallback
+[/home/braeden/projects/brain_model]
+/usr/bin/clang -resource-dir=/usr/lib/clang/16 -- /home/braeden/projects/brain_model/test.cpp
+I[14:13:04.648] --> textDocument/clangd.fileStatus
+I[14:13:05.183] Indexing c++17 standard library in the context of /home/braeden/projects/brain_model/test.cpp
+I[14:13:05.313] Built preamble of size 4218372 for file /home/braeden/projects/brain_model/test.cpp version 1 in 0.67 seconds
+I[14:13:05.314] --> workspace/semanticTokens/refresh(0)
+I[14:13:05.314] --> textDocument/clangd.fileStatus
+I[14:13:05.320] <-- reply(0)
+I[14:13:05.359] --> textDocument/publishDiagnostics
+I[14:13:05.360] --> textDocument/clangd.fileStatus
+I[14:13:08.016] Indexed c++17 standard library: 12759 symbols, 2096 filtered

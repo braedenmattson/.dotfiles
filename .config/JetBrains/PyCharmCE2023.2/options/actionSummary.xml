@@ -1,0 +1,76 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="12" l="1695245584151" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="375" l="1695245863890" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="11" l="1695245839465" />
+    </e>
+    <e n="EditorCopy">
+      <i c="17" l="1695245859698" />
+    </e>
+    <e n="EditorDown">
+      <i c="85" l="1695246186338" />
+    </e>
+    <e n="EditorEnter">
+      <i c="48" l="1695246173258" />
+    </e>
+    <e n="EditorIndentSelection">
+      <i c="2" l="1695236721903" />
+    </e>
+    <e n="EditorLeft">
+      <i c="383" l="1695245600043" />
+    </e>
+    <e n="EditorPaste">
+      <i c="21" l="1695245827132" />
+    </e>
+    <e n="EditorRight">
+      <i c="391" l="1695245775118" />
+    </e>
+    <e n="EditorTab">
+      <i c="2" l="1695235930125" />
+    </e>
+    <e n="EditorToggleInsertState">
+      <i c="2" l="1695235617657" />
+    </e>
+    <e n="EditorUnindentSelection">
+      <i c="1" l="1695235821917" />
+    </e>
+    <e n="EditorUp">
+      <i c="120" l="1695246170581" />
+    </e>
+    <e n="NewFile">
+      <i c="1" l="1695235534805" />
+    </e>
+    <e n="NewPythonFile">
+      <i c="2" l="1695236681030" />
+    </e>
+    <e n="PasteMultiple">
+      <i c="2" l="1695244311208" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="1" l="1695239101767" />
+    </e>
+    <e n="Run">
+      <i c="6" l="1695246156241" />
+    </e>
+    <e n="SaveAll">
+      <i c="1" l="1695236889159" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="3" l="1695244278676" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1695246028523" />
+    </e>
+    <e n="com.jetbrains.python.sdk.AddLocalInterpreterAction">
+      <i c="1" l="1695236278164" />
+    </e>
+    <e n="com.jetbrains.python.sdk.PySdkPopupFactory$SwitchToSdkAction">
+      <i c="1" l="1695236343025" />
+    </e>
+  </component>
+</application>

@@ -1,0 +1,61 @@
+I[15:17:50.933] clangd version 16.0.6
+I[15:17:50.933] Features: linux
+I[15:17:50.933] PID: 9718
+I[15:17:50.933] Working directory: /home/braeden/projects/brain_model
+I[15:17:50.933] argv[0]: /usr/bin/clangd
+I[15:17:50.933] Starting LSP over stdin/stdout
+I[15:17:50.933] <-- initialize(0)
+I[15:17:50.935] --> reply:initialize(0) 1 ms
+I[15:17:50.938] <-- initialized
+I[15:17:50.950] <-- textDocument/didOpen
+I[15:17:50.951] Failed to find compilation database for /home/braeden/projects/brain_model/test.cpp
+I[15:17:50.951] ASTWorker building file /home/braeden/projects/brain_model/test.cpp version 1 with command clangd fallback
+[/home/braeden/projects/brain_model]
+/usr/bin/clang -resource-dir=/usr/lib/clang/16 -- /home/braeden/projects/brain_model/test.cpp
+I[15:17:50.953] --> textDocument/clangd.fileStatus
+I[15:17:51.238] <-- textDocument/documentLink(1)
+I[15:17:51.239] <-- textDocument/inlayHint(2)
+I[15:17:51.333] <-- textDocument/codeAction(3)
+I[15:17:51.453] <-- $/setTrace
+I[15:17:51.453] unhandled notification $/setTrace
+I[15:17:51.513] <-- $/cancelRequest
+I[15:17:51.513] <-- textDocument/documentLink(4)
+I[15:17:51.534] <-- textDocument/foldingRange(5)
+I[15:17:51.536] --> reply:textDocument/foldingRange(5) 1 ms
+I[15:17:51.591] <-- $/setTrace
+I[15:17:51.591] unhandled notification $/setTrace
+I[15:17:51.652] <-- textDocument/semanticTokens/full(6)
+I[15:17:51.666] Indexing c++17 standard library in the context of /home/braeden/projects/brain_model/test.cpp
+I[15:17:51.833] Built preamble of size 4218372 for file /home/braeden/projects/brain_model/test.cpp version 1 in 0.88 seconds
+I[15:17:51.834] --> textDocument/clangd.fileStatus
+I[15:17:51.834] --> textDocument/clangd.fileStatus
+I[15:17:51.840] --> workspace/semanticTokens/refresh(0)
+I[15:17:51.842] <-- reply(0)
+I[15:17:51.902] --> textDocument/publishDiagnostics
+I[15:17:51.903] --> reply:textDocument/documentLink(1) 665 ms, error: Task was cancelled.
+I[15:17:51.903] --> reply:textDocument/inlayHint(2) 664 ms
+I[15:17:51.903] --> reply:textDocument/codeAction(3) 570 ms
+I[15:17:51.903] --> reply:textDocument/documentLink(4) 390 ms
+I[15:17:51.904] --> reply:textDocument/semanticTokens/full(6) 252 ms
+[Error - 3:17:51 PM] Request textDocument/documentLink failed.
+[object Object]
+I[15:17:51.904] --> textDocument/clangd.fileStatus
+I[15:17:51.948] <-- $/cancelRequest
+I[15:17:51.948] <-- textDocument/codeAction(7)
+I[15:17:51.949] --> reply:textDocument/codeAction(7) 0 ms
+I[15:17:51.949] --> textDocument/clangd.fileStatus
+I[15:17:51.949] <-- $/cancelRequest
+I[15:17:51.949] <-- textDocument/codeAction(8)
+I[15:17:51.949] --> reply:textDocument/codeAction(8) 0 ms
+I[15:17:51.949] --> textDocument/clangd.fileStatus
+I[15:17:52.366] <-- textDocument/codeAction(9)
+I[15:17:52.366] --> reply:textDocument/codeAction(9) 0 ms
+I[15:17:52.366] --> textDocument/clangd.fileStatus
+I[15:17:52.373] <-- textDocument/documentSymbol(10)
+I[15:17:52.373] --> reply:textDocument/documentSymbol(10) 0 ms
+I[15:17:52.373] --> textDocument/clangd.fileStatus
+I[15:17:52.469] <-- $/setTrace
+I[15:17:52.469] unhandled notification $/setTrace
+I[15:17:52.483] <-- textDocument/semanticTokens/full/delta(11)
+I[15:17:52.484] --> reply:textDocument/semanticTokens/full/delta(11) 0 ms
+I[15:17:52.484] --> textDocument/clangd.fileStatus

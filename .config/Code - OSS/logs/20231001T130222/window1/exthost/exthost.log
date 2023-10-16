@@ -1,0 +1,12 @@
+2023-10-01 13:02:25.420 [info] Extension host with pid 24015 started
+2023-10-01 13:02:25.420 [info] Skipping acquiring lock for /home/braeden/.config/Code - OSS/User/workspaceStorage/04224ff8af18993d62ad46a4ac48b756.
+2023-10-01 13:02:25.518 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-01 13:02:25.696 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-01 13:02:25.731 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-01 13:02:25.834 [info] Eager extensions activated
+2023-10-01 13:02:25.871 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-01 13:02:25.877 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-01 13:02:25.888 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2023-10-01 13:02:25.981 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2023-10-01 14:30:16.749 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-01 14:30:16.756 [info] Extension host with pid 24015 exiting with code 0

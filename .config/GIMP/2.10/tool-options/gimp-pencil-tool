@@ -1,0 +1,12 @@
+# GIMP gimp-pencil-tool options
+
+(foreground (color-rgb 0.49065420560747663 0.34576303079721504 0.34576303079721504))
+(background (color-rgb 0 0 0))
+(brush "Clipboard Image")
+(dynamics "Dynamics Off")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(brush-size 17)
+(brush-spacing 0.20000000000000001)
+
+# end of gimp-pencil-tool options

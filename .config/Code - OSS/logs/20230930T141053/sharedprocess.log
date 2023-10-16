@@ -1,0 +1,15 @@
+2023-09-30 14:12:53.706 [info] Getting Manifest... franneck94.vscode-c-cpp-config
+2023-09-30 14:12:54.024 [info] Installing extension: franneck94.vscode-c-cpp-config
+2023-09-30 14:12:54.333 [info] Getting Manifest... vadimcn.vscode-lldb
+2023-09-30 14:12:55.589 [info] Extension signature verification is not done: franneck94.vscode-c-cpp-config
+2023-09-30 14:12:55.656 [info] Extracted extension to file:///home/braeden/.vscode-oss/extensions/franneck94.vscode-c-cpp-config-4.1.0-universal: franneck94.vscode-c-cpp-config
+2023-09-30 14:12:55.661 [info] Renamed to /home/braeden/.vscode-oss/extensions/franneck94.vscode-c-cpp-config-4.1.0-universal
+2023-09-30 14:12:55.665 [info] Extracting extension completed. franneck94.vscode-c-cpp-config
+2023-09-30 14:12:55.679 [info] Extension installed successfully: franneck94.vscode-c-cpp-config
+2023-09-30 14:13:01.867 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+2023-09-30 14:13:02.197 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd
+2023-09-30 14:13:03.917 [info] Extension signature verification is not done: llvm-vs-code-extensions.vscode-clangd
+2023-09-30 14:13:03.972 [info] Extracted extension to file:///home/braeden/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.24-universal: llvm-vs-code-extensions.vscode-clangd
+2023-09-30 14:13:03.988 [info] Renamed to /home/braeden/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.24-universal
+2023-09-30 14:13:03.992 [info] Extracting extension completed. llvm-vs-code-extensions.vscode-clangd
+2023-09-30 14:13:04.004 [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd

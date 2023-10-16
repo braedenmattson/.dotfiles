@@ -1,0 +1,366 @@
+I[14:15:25.008] clangd version 16.0.6
+I[14:15:25.008] Features: linux
+I[14:15:25.008] PID: 7149
+I[14:15:25.008] Working directory: /home/braeden/projects/brain_model
+I[14:15:25.008] argv[0]: /usr/bin/clangd
+I[14:15:25.008] Starting LSP over stdin/stdout
+I[14:15:25.008] <-- initialize(0)
+I[14:15:25.010] --> reply:initialize(0) 1 ms
+I[14:15:25.012] <-- initialized
+I[14:15:25.036] <-- textDocument/didOpen
+I[14:15:25.040] Failed to find compilation database for /home/braeden/projects/brain_model/test.cpp
+I[14:15:25.040] ASTWorker building file /home/braeden/projects/brain_model/test.cpp version 1 with command clangd fallback
+[/home/braeden/projects/brain_model]
+/usr/bin/clang -resource-dir=/usr/lib/clang/16 -- /home/braeden/projects/brain_model/test.cpp
+I[14:15:25.042] --> textDocument/clangd.fileStatus
+I[14:15:25.180] <-- textDocument/documentLink(1)
+I[14:15:25.186] <-- textDocument/inlayHint(2)
+I[14:15:25.441] <-- $/cancelRequest
+I[14:15:25.441] <-- textDocument/documentLink(3)
+I[14:15:25.441] <-- $/setTrace
+I[14:15:25.441] unhandled notification $/setTrace
+I[14:15:25.458] <-- textDocument/foldingRange(4)
+I[14:15:25.464] --> reply:textDocument/foldingRange(4) 6 ms
+I[14:15:25.529] <-- textDocument/codeAction(5)
+I[14:15:25.572] <-- textDocument/semanticTokens/full(6)
+I[14:15:25.628] <-- $/setTrace
+I[14:15:25.628] unhandled notification $/setTrace
+I[14:15:25.764] Indexing c++17 standard library in the context of /home/braeden/projects/brain_model/test.cpp
+I[14:15:25.828] <-- $/cancelRequest
+I[14:15:25.828] <-- textDocument/codeAction(7)
+I[14:15:25.828] <-- $/cancelRequest
+I[14:15:25.829] <-- textDocument/codeAction(8)
+I[14:15:25.912] Built preamble of size 4218372 for file /home/braeden/projects/brain_model/test.cpp version 1 in 0.87 seconds
+I[14:15:25.912] --> workspace/semanticTokens/refresh(0)
+I[14:15:25.912] --> textDocument/clangd.fileStatus
+I[14:15:25.912] --> textDocument/clangd.fileStatus
+I[14:15:25.914] <-- reply(0)
+I[14:15:25.975] --> textDocument/publishDiagnostics
+I[14:15:25.976] --> reply:textDocument/documentLink(1) 795 ms, error: Task was cancelled.
+I[14:15:25.976] --> reply:textDocument/inlayHint(2) 789 ms
+I[14:15:25.976] --> reply:textDocument/documentLink(3) 535 ms
+I[14:15:25.976] --> reply:textDocument/codeAction(5) 446 ms, error: Task was cancelled.
+I[14:15:25.976] --> reply:textDocument/semanticTokens/full(6) 404 ms
+[Error - 2:15:25 PM] Request textDocument/documentLink failed.
+[object Object]
+I[14:15:25.977] --> reply:textDocument/codeAction(7) 148 ms, error: Task was cancelled.
+I[14:15:25.977] --> reply:textDocument/codeAction(8) 147 ms
+I[14:15:25.977] --> textDocument/clangd.fileStatus
+[Error - 2:15:26 PM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 2:15:26 PM] Request textDocument/codeAction failed.
+[object Object]
+I[14:15:26.529] <-- $/setTrace
+I[14:15:26.529] unhandled notification $/setTrace
+I[14:15:26.619] <-- textDocument/semanticTokens/full/delta(9)
+I[14:15:26.620] --> reply:textDocument/semanticTokens/full/delta(9) 0 ms
+I[14:15:26.620] --> textDocument/clangd.fileStatus
+I[14:15:26.974] <-- textDocument/codeAction(10)
+I[14:15:26.975] --> reply:textDocument/codeAction(10) 0 ms
+I[14:15:26.975] --> textDocument/clangd.fileStatus
+I[14:15:27.184] <-- textDocument/documentSymbol(11)
+I[14:15:27.185] --> reply:textDocument/documentSymbol(11) 0 ms
+I[14:15:27.185] --> textDocument/clangd.fileStatus
+I[14:15:27.798] <-- textDocument/inlayHint(12)
+I[14:15:27.798] --> reply:textDocument/inlayHint(12) 0 ms
+I[14:15:27.798] --> textDocument/clangd.fileStatus
+I[14:15:28.915] Indexed c++17 standard library: 12759 symbols, 2096 filtered
+I[14:15:35.252] <-- textDocument/codeAction(13)
+I[14:15:35.252] --> reply:textDocument/codeAction(13) 0 ms
+I[14:15:35.252] --> textDocument/clangd.fileStatus
+I[14:15:35.633] <-- textDocument/inlayHint(14)
+I[14:15:35.633] --> reply:textDocument/inlayHint(14) 0 ms
+I[14:15:35.633] --> textDocument/clangd.fileStatus
+I[14:15:35.680] <-- textDocument/inlayHint(15)
+I[14:15:35.680] --> reply:textDocument/inlayHint(15) 0 ms
+I[14:15:35.680] --> textDocument/clangd.fileStatus
+I[14:15:40.637] <-- textDocument/didClose
+I[14:15:40.637] --> textDocument/publishDiagnostics
+I[14:15:40.659] <-- textDocument/didOpen
+I[14:15:40.659] Failed to find compilation database for /home/braeden/projects/brain_model/get_dfs_vectors.cpp
+I[14:15:40.660] ASTWorker building file /home/braeden/projects/brain_model/get_dfs_vectors.cpp version 1 with command clangd fallback
+[/home/braeden/projects/brain_model]
+/usr/bin/clang -resource-dir=/usr/lib/clang/16 -- /home/braeden/projects/brain_model/get_dfs_vectors.cpp
+I[14:15:40.661] --> textDocument/clangd.fileStatus
+I[14:15:40.699] <-- textDocument/codeAction(16)
+I[14:15:40.702] <-- textDocument/documentSymbol(17)
+I[14:15:40.734] <-- textDocument/semanticTokens/full(18)
+I[14:15:40.745] <-- textDocument/documentLink(19)
+I[14:15:40.745] <-- textDocument/inlayHint(20)
+I[14:15:40.968] <-- textDocument/foldingRange(21)
+I[14:15:40.987] --> reply:textDocument/foldingRange(21) 19 ms
+I[14:15:41.091] <-- $/cancelRequest
+I[14:15:41.093] <-- $/cancelRequest
+I[14:15:41.093] <-- $/cancelRequest
+I[14:15:41.094] <-- $/cancelRequest
+I[14:15:41.104] <-- $/cancelRequest
+I[14:15:41.107] <-- textDocument/didClose
+I[14:15:41.107] --> textDocument/publishDiagnostics
+I[14:15:41.107] --> reply:textDocument/codeAction(16) 408 ms, error: Task was cancelled.
+I[14:15:41.107] --> reply:textDocument/documentSymbol(17) 405 ms, error: Task was cancelled.
+I[14:15:41.108] --> reply:textDocument/semanticTokens/full(18) 373 ms, error: Task was cancelled.
+I[14:15:41.108] --> reply:textDocument/documentLink(19) 362 ms, error: Task was cancelled.
+I[14:15:41.108] --> reply:textDocument/inlayHint(20) 362 ms, error: Task was cancelled.
+[Error - 2:15:41 PM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 2:15:41 PM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 2:15:41 PM] Request textDocument/semanticTokens/full failed.
+[object Object]
+[Error - 2:15:41 PM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 2:15:41 PM] Request textDocument/inlayHint failed.
+[object Object]
+I[14:15:41.126] <-- textDocument/didOpen
+I[14:15:41.127] Failed to find compilation database for /home/braeden/projects/brain_model/dfsurface.h
+I[14:15:41.127] ASTWorker building file /home/braeden/projects/brain_model/dfsurface.h version 1 with command clangd fallback
+[/home/braeden/projects/brain_model]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/clang/16 -- /home/braeden/projects/brain_model/dfsurface.h
+I[14:15:41.129] --> textDocument/clangd.fileStatus
+I[14:15:41.159] <-- textDocument/codeAction(22)
+I[14:15:41.159] <-- textDocument/documentSymbol(23)
+I[14:15:41.270] <-- textDocument/semanticTokens/full(24)
+I[14:15:41.279] <-- textDocument/documentLink(25)
+I[14:15:41.282] <-- textDocument/inlayHint(26)
+I[14:15:41.401] Built preamble of size 4217924 for file /home/braeden/projects/brain_model/get_dfs_vectors.cpp version 1 in 0.74 seconds
+I[14:15:41.402] --> workspace/semanticTokens/refresh(1)
+I[14:15:41.403] <-- reply(1)
+I[14:15:41.496] <-- textDocument/foldingRange(27)
+I[14:15:41.508] --> reply:textDocument/foldingRange(27) 12 ms
+I[14:15:41.898] Built preamble of size 3926888 for file /home/braeden/projects/brain_model/dfsurface.h version 1 in 0.77 seconds
+I[14:15:41.898] --> workspace/semanticTokens/refresh(2)
+I[14:15:41.898] --> textDocument/clangd.fileStatus
+I[14:15:41.906] <-- reply(2)
+I[14:15:41.962] --> textDocument/publishDiagnostics
+I[14:15:41.965] --> reply:textDocument/codeAction(22) 805 ms
+I[14:15:41.968] --> reply:textDocument/documentSymbol(23) 808 ms
+I[14:15:41.975] --> reply:textDocument/semanticTokens/full(24) 704 ms
+I[14:15:41.977] --> reply:textDocument/documentLink(25) 697 ms
+I[14:15:41.979] --> reply:textDocument/inlayHint(26) 696 ms
+I[14:15:41.980] --> textDocument/clangd.fileStatus
+I[14:15:42.438] <-- textDocument/semanticTokens/full/delta(28)
+I[14:15:42.441] --> reply:textDocument/semanticTokens/full/delta(28) 2 ms
+I[14:15:42.442] --> textDocument/clangd.fileStatus
+I[14:15:42.778] <-- textDocument/didClose
+I[14:15:42.778] --> textDocument/publishDiagnostics
+I[14:15:42.793] <-- textDocument/didOpen
+I[14:15:42.793] Failed to find compilation database for /home/braeden/projects/brain_model/get_dfs_vectors.cpp
+I[14:15:42.793] ASTWorker building file /home/braeden/projects/brain_model/get_dfs_vectors.cpp version 1 with command clangd fallback
+[/home/braeden/projects/brain_model]
+/usr/bin/clang -resource-dir=/usr/lib/clang/16 -- /home/braeden/projects/brain_model/get_dfs_vectors.cpp
+I[14:15:42.794] --> textDocument/clangd.fileStatus
+I[14:15:42.815] <-- textDocument/codeAction(29)
+I[14:15:42.817] <-- textDocument/documentSymbol(30)
+I[14:15:42.842] <-- textDocument/semanticTokens/full(31)
+I[14:15:42.856] <-- textDocument/documentLink(32)
+I[14:15:42.856] <-- textDocument/inlayHint(33)
+I[14:15:43.099] <-- textDocument/foldingRange(34)
+I[14:15:43.099] --> reply:textDocument/foldingRange(34) 0 ms
+I[14:15:43.458] Built preamble of size 4217924 for file /home/braeden/projects/brain_model/get_dfs_vectors.cpp version 1 in 0.66 seconds
+I[14:15:43.458] --> workspace/semanticTokens/refresh(3)
+I[14:15:43.458] --> textDocument/clangd.fileStatus
+I[14:15:43.458] --> textDocument/clangd.fileStatus
+I[14:15:43.459] <-- reply(3)
+I[14:15:43.474] --> textDocument/publishDiagnostics
+I[14:15:43.475] --> reply:textDocument/codeAction(29) 659 ms
+I[14:15:43.475] --> reply:textDocument/documentSymbol(30) 658 ms
+I[14:15:43.475] --> reply:textDocument/semanticTokens/full(31) 633 ms
+I[14:15:43.475] --> reply:textDocument/documentLink(32) 619 ms
+I[14:15:43.475] --> reply:textDocument/inlayHint(33) 619 ms
+I[14:15:43.475] --> textDocument/clangd.fileStatus
+I[14:15:43.737] <-- textDocument/codeAction(35)
+I[14:15:43.737] --> reply:textDocument/codeAction(35) 0 ms
+I[14:15:43.737] --> textDocument/clangd.fileStatus
+I[14:15:43.937] <-- textDocument/semanticTokens/full/delta(36)
+I[14:15:43.938] --> reply:textDocument/semanticTokens/full/delta(36) 0 ms
+I[14:15:43.938] --> textDocument/clangd.fileStatus
+I[14:15:45.083] <-- textDocument/didClose
+I[14:15:45.083] --> textDocument/publishDiagnostics
+I[14:15:45.098] <-- textDocument/didOpen
+I[14:15:45.098] Failed to find compilation database for /home/braeden/projects/brain_model/test.cpp
+I[14:15:45.098] ASTWorker building file /home/braeden/projects/brain_model/test.cpp version 1 with command clangd fallback
+[/home/braeden/projects/brain_model]
+/usr/bin/clang -resource-dir=/usr/lib/clang/16 -- /home/braeden/projects/brain_model/test.cpp
+I[14:15:45.099] --> textDocument/clangd.fileStatus
+I[14:15:45.121] <-- textDocument/codeAction(37)
+I[14:15:45.123] <-- textDocument/documentSymbol(38)
+I[14:15:45.139] <-- textDocument/semanticTokens/full(39)
+I[14:15:45.142] <-- textDocument/documentLink(40)
+I[14:15:45.207] <-- textDocument/inlayHint(41)
+I[14:15:45.368] <-- textDocument/codeAction(42)
+I[14:15:45.369] <-- $/cancelRequest
+I[14:15:45.405] <-- textDocument/foldingRange(43)
+I[14:15:45.406] --> reply:textDocument/foldingRange(43) 0 ms
+I[14:15:45.896] Built preamble of size 4218372 for file /home/braeden/projects/brain_model/test.cpp version 1 in 0.80 seconds
+I[14:15:45.896] --> workspace/semanticTokens/refresh(4)
+I[14:15:45.896] --> textDocument/clangd.fileStatus
+I[14:15:45.897] <-- reply(4)
+I[14:15:45.948] --> textDocument/publishDiagnostics
+I[14:15:45.949] --> reply:textDocument/codeAction(37) 827 ms, error: Task was cancelled.
+I[14:15:45.949] --> reply:textDocument/documentSymbol(38) 825 ms
+[Error - 2:15:45 PM] Request textDocument/codeAction failed.
+[object Object]
+I[14:15:45.949] --> reply:textDocument/semanticTokens/full(39) 809 ms
+I[14:15:45.950] --> reply:textDocument/documentLink(40) 807 ms
+I[14:15:45.950] --> reply:textDocument/inlayHint(41) 742 ms
+I[14:15:45.950] --> reply:textDocument/codeAction(42) 581 ms
+I[14:15:45.950] --> textDocument/clangd.fileStatus
+I[14:15:46.031] <-- textDocument/hover(44)
+I[14:15:46.032] --> reply:textDocument/hover(44) 0 ms
+I[14:15:46.032] --> textDocument/clangd.fileStatus
+I[14:15:46.224] <-- textDocument/inlayHint(45)
+I[14:15:46.225] --> reply:textDocument/inlayHint(45) 0 ms
+I[14:15:46.225] --> textDocument/clangd.fileStatus
+I[14:15:46.408] <-- textDocument/semanticTokens/full/delta(46)
+I[14:15:46.410] --> reply:textDocument/semanticTokens/full/delta(46) 1 ms
+I[14:15:46.410] --> textDocument/clangd.fileStatus
+I[14:15:46.631] <-- textDocument/inlayHint(47)
+I[14:15:46.631] --> reply:textDocument/inlayHint(47) 0 ms
+I[14:15:46.631] --> textDocument/clangd.fileStatus
+I[14:15:46.948] <-- textDocument/inlayHint(48)
+I[14:15:46.948] --> reply:textDocument/inlayHint(48) 0 ms
+I[14:15:46.948] --> textDocument/clangd.fileStatus
+I[14:15:47.196] <-- textDocument/inlayHint(49)
+I[14:15:47.196] --> reply:textDocument/inlayHint(49) 0 ms
+I[14:15:47.196] --> textDocument/clangd.fileStatus
+I[14:15:47.446] <-- textDocument/inlayHint(50)
+I[14:15:47.446] --> reply:textDocument/inlayHint(50) 0 ms
+I[14:15:47.446] --> textDocument/clangd.fileStatus
+I[14:15:49.411] <-- textDocument/inlayHint(51)
+I[14:15:49.412] --> reply:textDocument/inlayHint(51) 0 ms
+I[14:15:49.412] --> textDocument/clangd.fileStatus
+I[14:15:50.449] <-- textDocument/inlayHint(52)
+I[14:15:50.449] --> reply:textDocument/inlayHint(52) 0 ms
+I[14:15:50.449] --> textDocument/clangd.fileStatus
+I[14:15:50.851] <-- textDocument/inlayHint(53)
+I[14:15:50.851] --> reply:textDocument/inlayHint(53) 0 ms
+I[14:15:50.851] --> textDocument/clangd.fileStatus
+I[14:15:51.718] <-- textDocument/inlayHint(54)
+I[14:15:51.718] --> reply:textDocument/inlayHint(54) 0 ms
+I[14:15:51.718] --> textDocument/clangd.fileStatus
+I[14:15:51.760] <-- textDocument/inlayHint(55)
+I[14:15:51.760] --> reply:textDocument/inlayHint(55) 0 ms
+I[14:15:51.760] --> textDocument/clangd.fileStatus
+I[14:15:52.239] <-- textDocument/inlayHint(56)
+I[14:15:52.240] --> reply:textDocument/inlayHint(56) 0 ms
+I[14:15:52.240] --> textDocument/clangd.fileStatus
+I[14:15:52.281] <-- textDocument/inlayHint(57)
+I[14:15:52.282] --> reply:textDocument/inlayHint(57) 0 ms
+I[14:15:52.282] --> textDocument/clangd.fileStatus
+I[14:15:52.713] <-- textDocument/inlayHint(58)
+I[14:15:52.713] --> reply:textDocument/inlayHint(58) 0 ms
+I[14:15:52.713] --> textDocument/clangd.fileStatus
+I[14:15:52.765] <-- textDocument/inlayHint(59)
+I[14:15:52.765] --> reply:textDocument/inlayHint(59) 0 ms
+I[14:15:52.766] --> textDocument/clangd.fileStatus
+I[14:15:53.245] <-- textDocument/inlayHint(60)
+I[14:15:53.245] --> reply:textDocument/inlayHint(60) 0 ms
+I[14:15:53.245] --> textDocument/clangd.fileStatus
+I[14:15:53.462] <-- textDocument/hover(61)
+I[14:15:53.465] --> reply:textDocument/hover(61) 3 ms
+I[14:15:53.466] --> textDocument/clangd.fileStatus
+I[14:15:53.682] <-- textDocument/inlayHint(62)
+I[14:15:53.682] --> reply:textDocument/inlayHint(62) 0 ms
+I[14:15:53.682] --> textDocument/clangd.fileStatus
+I[14:15:54.018] <-- textDocument/inlayHint(63)
+I[14:15:54.019] --> reply:textDocument/inlayHint(63) 0 ms
+I[14:15:54.019] --> textDocument/clangd.fileStatus
+I[14:15:54.081] <-- textDocument/inlayHint(64)
+I[14:15:54.082] --> reply:textDocument/inlayHint(64) 0 ms
+I[14:15:54.082] --> textDocument/clangd.fileStatus
+I[14:15:54.595] <-- textDocument/hover(65)
+I[14:15:54.598] --> reply:textDocument/hover(65) 2 ms
+I[14:15:54.598] --> textDocument/clangd.fileStatus
+I[14:15:55.211] <-- textDocument/inlayHint(66)
+I[14:15:55.211] --> reply:textDocument/inlayHint(66) 0 ms
+I[14:15:55.211] --> textDocument/clangd.fileStatus
+I[14:15:55.483] <-- textDocument/inlayHint(67)
+I[14:15:55.483] --> reply:textDocument/inlayHint(67) 0 ms
+I[14:15:55.483] --> textDocument/clangd.fileStatus
+I[14:15:55.686] <-- textDocument/inlayHint(68)
+I[14:15:55.686] --> reply:textDocument/inlayHint(68) 0 ms
+I[14:15:55.686] --> textDocument/clangd.fileStatus
+I[14:15:55.745] <-- textDocument/inlayHint(69)
+I[14:15:55.745] --> reply:textDocument/inlayHint(69) 0 ms
+I[14:15:55.745] --> textDocument/clangd.fileStatus
+I[14:15:55.805] <-- textDocument/inlayHint(70)
+I[14:15:55.805] --> reply:textDocument/inlayHint(70) 0 ms
+I[14:15:55.806] --> textDocument/clangd.fileStatus
+I[14:15:56.635] <-- textDocument/inlayHint(71)
+I[14:15:56.635] --> reply:textDocument/inlayHint(71) 0 ms
+I[14:15:56.635] --> textDocument/clangd.fileStatus
+I[14:15:58.479] <-- textDocument/hover(72)
+I[14:15:58.481] --> reply:textDocument/hover(72) 2 ms
+I[14:15:58.481] --> textDocument/clangd.fileStatus
+I[14:15:59.609] <-- textDocument/didClose
+I[14:15:59.609] --> textDocument/publishDiagnostics
+I[14:15:59.630] <-- textDocument/didOpen
+I[14:15:59.631] Failed to find compilation database for /home/braeden/projects/brain_model/get_dfs_vectors.cpp
+I[14:15:59.631] ASTWorker building file /home/braeden/projects/brain_model/get_dfs_vectors.cpp version 1 with command clangd fallback
+[/home/braeden/projects/brain_model]
+/usr/bin/clang -resource-dir=/usr/lib/clang/16 -- /home/braeden/projects/brain_model/get_dfs_vectors.cpp
+I[14:15:59.632] --> textDocument/clangd.fileStatus
+I[14:15:59.653] <-- textDocument/codeAction(73)
+I[14:15:59.654] <-- textDocument/documentSymbol(74)
+I[14:15:59.690] <-- textDocument/semanticTokens/full(75)
+I[14:15:59.695] <-- textDocument/documentLink(76)
+I[14:15:59.695] <-- textDocument/inlayHint(77)
+I[14:15:59.936] <-- textDocument/foldingRange(78)
+I[14:15:59.936] --> reply:textDocument/foldingRange(78) 0 ms
+I[14:16:00.025] <-- $/cancelRequest
+I[14:16:00.026] <-- $/cancelRequest
+I[14:16:00.029] <-- $/cancelRequest
+I[14:16:00.029] <-- $/cancelRequest
+I[14:16:00.035] <-- $/cancelRequest
+I[14:16:00.037] <-- textDocument/didClose
+I[14:16:00.037] --> textDocument/publishDiagnostics
+I[14:16:00.037] --> reply:textDocument/codeAction(73) 383 ms, error: Task was cancelled.
+I[14:16:00.037] --> reply:textDocument/documentSymbol(74) 383 ms, error: Task was cancelled.
+I[14:16:00.037] --> reply:textDocument/semanticTokens/full(75) 347 ms, error: Task was cancelled.
+I[14:16:00.037] --> reply:textDocument/documentLink(76) 342 ms, error: Task was cancelled.
+I[14:16:00.037] --> reply:textDocument/inlayHint(77) 341 ms, error: Task was cancelled.
+[Error - 2:16:00 PM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 2:16:00 PM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 2:16:00 PM] Request textDocument/semanticTokens/full failed.
+[object Object]
+[Error - 2:16:00 PM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 2:16:00 PM] Request textDocument/inlayHint failed.
+[object Object]
+I[14:16:00.051] <-- textDocument/didOpen
+I[14:16:00.052] Failed to find compilation database for /home/braeden/projects/brain_model/test.cpp
+I[14:16:00.052] ASTWorker building file /home/braeden/projects/brain_model/test.cpp version 1 with command clangd fallback
+[/home/braeden/projects/brain_model]
+/usr/bin/clang -resource-dir=/usr/lib/clang/16 -- /home/braeden/projects/brain_model/test.cpp
+I[14:16:00.053] --> textDocument/clangd.fileStatus
+I[14:16:00.075] <-- textDocument/codeAction(79)
+I[14:16:00.076] <-- textDocument/documentSymbol(80)
+I[14:16:00.089] <-- textDocument/semanticTokens/full(81)
+I[14:16:00.148] <-- textDocument/documentLink(82)
+I[14:16:00.166] <-- textDocument/inlayHint(83)
+I[14:16:00.329] <-- textDocument/codeAction(84)
+I[14:16:00.329] <-- $/cancelRequest
+I[14:16:00.359] <-- textDocument/foldingRange(85)
+I[14:16:00.372] Built preamble of size 4217924 for file /home/braeden/projects/brain_model/get_dfs_vectors.cpp version 1 in 0.74 seconds
+I[14:16:00.373] --> workspace/semanticTokens/refresh(5)
+I[14:16:00.374] <-- reply(5)
+I[14:16:00.379] --> reply:textDocument/foldingRange(85) 19 ms
+I[14:16:00.824] Built preamble of size 4218372 for file /home/braeden/projects/brain_model/test.cpp version 1 in 0.77 seconds
+I[14:16:00.824] --> workspace/semanticTokens/refresh(6)
+I[14:16:00.824] --> textDocument/clangd.fileStatus
+I[14:16:00.826] <-- reply(6)
+I[14:16:00.872] --> textDocument/publishDiagnostics
+I[14:16:00.873] --> reply:textDocument/codeAction(79) 797 ms, error: Task was cancelled.
+I[14:16:00.873] --> reply:textDocument/documentSymbol(80) 797 ms
+[Error - 2:16:00 PM] Request textDocument/codeAction failed.
+[object Object]
+I[14:16:00.874] --> reply:textDocument/semanticTokens/full(81) 785 ms
+I[14:16:00.874] --> reply:textDocument/documentLink(82) 726 ms
+I[14:16:00.874] --> reply:textDocument/inlayHint(83) 708 ms
+I[14:16:00.874] --> reply:textDocument/codeAction(84) 545 ms
+I[14:16:00.874] --> textDocument/clangd.fileStatus
+I[14:16:01.333] <-- textDocument/semanticTokens/full/delta(86)
+I[14:16:01.334] --> reply:textDocument/semanticTokens/full/delta(86) 1 ms
+I[14:16:01.334] --> textDocument/clangd.fileStatus

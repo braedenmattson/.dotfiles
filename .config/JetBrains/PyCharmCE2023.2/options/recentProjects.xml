@@ -1,0 +1,25 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/.config">
+          <value>
+            <RecentProjectMetaInfo frameTitle="test.py – random_wall.py" opened="true" projectWorkspaceId="2VfmRveafciCi8tee8pqVnoZBsO">
+              <option name="activationTimestamp" value="1695246196723" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-232.9559.58" />
+              <option name="buildTimestamp" value="1692721027045" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="1056" y="19" width="862" height="1059" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1695244156106" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/.config" />
+  </component>
+</application>

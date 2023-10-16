@@ -1,0 +1,21 @@
+2023-09-30 13:39:34.397 [info] Getting Manifest... franneck94.c-cpp-runner
+2023-09-30 13:39:34.739 [info] Installing extension: franneck94.c-cpp-runner
+2023-09-30 13:39:35.108 [info] Getting Manifest... vadimcn.vscode-lldb
+2023-09-30 13:39:35.507 [info] Installing extension: vadimcn.vscode-lldb franneck94.c-cpp-runner
+2023-09-30 13:39:36.238 [info] Extension signature verification is not done: vadimcn.vscode-lldb
+2023-09-30 13:39:36.290 [info] Extracted extension to file:///home/braeden/.vscode-oss/extensions/vadimcn.vscode-lldb-1.10.0-universal: vadimcn.vscode-lldb
+2023-09-30 13:39:36.297 [info] Renamed to /home/braeden/.vscode-oss/extensions/vadimcn.vscode-lldb-1.10.0-universal
+2023-09-30 13:39:36.300 [info] Extracting extension completed. vadimcn.vscode-lldb
+2023-09-30 13:39:38.072 [info] Extension signature verification is not done: franneck94.c-cpp-runner
+2023-09-30 13:39:38.199 [info] Extracted extension to file:///home/braeden/.vscode-oss/extensions/franneck94.c-cpp-runner-5.2.1-universal: franneck94.c-cpp-runner
+2023-09-30 13:39:38.214 [info] Renamed to /home/braeden/.vscode-oss/extensions/franneck94.c-cpp-runner-5.2.1-universal
+2023-09-30 13:39:38.218 [info] Extracting extension completed. franneck94.c-cpp-runner
+2023-09-30 13:39:38.232 [info] Extension installed successfully: vadimcn.vscode-lldb
+2023-09-30 13:39:38.232 [info] Extension installed successfully: franneck94.c-cpp-runner
+2023-09-30 13:39:39.836 [info] Getting Manifest... danielpinto8zz6.c-cpp-project-generator
+2023-09-30 13:39:40.032 [info] Installing extension: danielpinto8zz6.c-cpp-project-generator
+2023-09-30 13:39:41.847 [info] Extension signature verification is not done: danielpinto8zz6.c-cpp-project-generator
+2023-09-30 13:39:42.393 [info] Extracted extension to file:///home/braeden/.vscode-oss/extensions/danielpinto8zz6.c-cpp-project-generator-1.2.13-universal: danielpinto8zz6.c-cpp-project-generator
+2023-09-30 13:39:42.401 [info] Renamed to /home/braeden/.vscode-oss/extensions/danielpinto8zz6.c-cpp-project-generator-1.2.13-universal
+2023-09-30 13:39:42.408 [info] Extracting extension completed. danielpinto8zz6.c-cpp-project-generator
+2023-09-30 13:39:42.429 [info] Extension installed successfully: danielpinto8zz6.c-cpp-project-generator

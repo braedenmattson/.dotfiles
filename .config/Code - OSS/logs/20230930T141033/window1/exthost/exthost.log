@@ -1,0 +1,36 @@
+2023-09-30 14:10:36.772 [info] Extension host with pid 6228 started
+2023-09-30 14:10:36.772 [info] Skipping acquiring lock for /home/braeden/.config/Code - OSS/User/workspaceStorage/0e5a1c22b2774c3b3093a8b78d2650b2.
+2023-09-30 14:10:37.074 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-30 14:10:37.229 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-30 14:10:37.268 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-30 14:10:37.327 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: true, activationEvent: 'workspaceContains:*.h,*.c,*.hh,*.cc,*.hxx,*.cxx,*.hpp,*.cpp', root cause: franneck94.c-cpp-runner
+2023-09-30 14:10:37.475 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: true, activationEvent: 'workspaceContains:*.h,*.c,*.hh,*.cc,*.hxx,*.cxx,*.hpp,*.cpp'
+2023-09-30 14:10:37.510 [info] Eager extensions activated
+2023-09-30 14:10:37.513 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-30 14:10:37.516 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-30 14:10:39.658 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-30 14:10:45.299 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-30 14:10:45.310 [error] Canceled: Canceled
+	at new h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:57382)
+	at i.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10850)
+	at j.<computed>.T.charCodeAt.j.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:8289)
+	at r.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:82208)
+	at r.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+	at u.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:80967)
+	at r.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:82744)
+	at r.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:81739)
+	at r.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:107:81646)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:21247)
+	at setContextValue (/home/braeden/.vscode-oss/extensions/franneck94.c-cpp-runner-5.2.1-universal/dist/main.js:5343:28)
+	at Object.deactivate (/home/braeden/.vscode-oss/extensions/franneck94.c-cpp-runner-5.2.1-universal/dist/main.js:3482:39)
+	at n.Z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9460)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:7585
+	at Array.map (<anonymous>)
+	at n.S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:7572)
+	at n.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:7844)
+	at o.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:1513)
+	at D (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:135:9800)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:135:6225)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-09-30 14:10:45.310 [info] Extension host with pid 6228 exiting with code 0

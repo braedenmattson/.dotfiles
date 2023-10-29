@@ -1,0 +1,11 @@
+2023/10/29-15:39:12.331 45745 Reusing MANIFEST /home/braeden/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/10/29-15:39:12.331 45745 Recovering log #3
+2023/10/29-15:39:12.384 45745 Level-0 table #3: started
+2023/10/29-15:39:12.448 45745 Level-0 table #3: 2081639 bytes OK
+2023/10/29-15:39:12.454 45745 Delete type=0 #3
+2023/10/29-15:40:14.800 45824 Level-0 table #6: started
+2023/10/29-15:40:14.835 45824 Level-0 table #6: 2083566 bytes OK
+2023/10/29-15:40:14.838 45824 Delete type=0 #4
+2023/10/29-16:12:31.779 45824 Level-0 table #8: started
+2023/10/29-16:12:31.812 45824 Level-0 table #8: 1959910 bytes OK
+2023/10/29-16:12:31.815 45824 Delete type=0 #5

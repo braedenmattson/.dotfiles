@@ -1,7 +1,0 @@
-.CookieError: ClassType
-
-.BaseCookie!: ClassType
-.SimpleCookie!: ClassType
-.SimpleCookie! <: .BaseCookie!
-
-.Morsel!: ClassType

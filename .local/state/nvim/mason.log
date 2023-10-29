@@ -1,8 +1,0 @@
-[INFO  Fri 27 Oct 2023 03:03:45 PM PDT] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=rust-analyzer) {}
-[INFO  Fri 27 Oct 2023 03:03:47 PM PDT] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=rust-analyzer)
-[INFO  Fri 27 Oct 2023 03:15:54 PM PDT] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=ruff-lsp) {}
-[INFO  Fri 27 Oct 2023 03:16:00 PM PDT] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=python-lsp-server) {}
-[INFO  Fri 27 Oct 2023 03:16:02 PM PDT] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=ruff-lsp)
-[INFO  Fri 27 Oct 2023 03:16:07 PM PDT] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=autoflake) {}
-[INFO  Fri 27 Oct 2023 03:16:13 PM PDT] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=autoflake)
-[INFO  Fri 27 Oct 2023 03:16:14 PM PDT] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=python-lsp-server)

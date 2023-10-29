@@ -1,5 +1,8 @@
 vim.keymap.set("n", "<leader>rn", ":w|TermExec cmd='cargo run %' direction=tab dir=% <cr>")
 vim.keymap.set("n", "<leader>rm", ":w|TermExec cmd='cargo run %' direction=horizontal dir=% <cr>")
+vim.keymap.set("n", "<leader>dk", ":w|TermExec cmd='cargo test --%:t:r' direction=horizontal dir=% <cr>")
+vim.keymap.set("n", "<leader>db", ":w|TermExec cmd='cargo test --%:t:r' direction=tab dir=% <cr>")
+vim.keymap.set("n", "<leader>dm", ":w|TermExec cmd='cargo test --%:t:r' direction=vertical dir=% <cr>")
 --vim.keymap.set("n", "<leader>rd", ":!rustrover .. &<cr>")
 --vim.keymap.set("n", "<leader>rd", ":w|term source  && pdb %<cr> direction=vertical size=40 dir=% >")
 vim.keymap.set("n", "<C-c>", "0i//<esc>j")

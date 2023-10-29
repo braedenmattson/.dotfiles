@@ -1,5 +1,0 @@
-result = pyimport "./result"
-
-.TextTestResult!: ClassType
-.TextTestResult! <: result.TestResult!
-.TextTestRunner!: ClassType

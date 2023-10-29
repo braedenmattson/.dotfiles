@@ -1,4 +1,0 @@
-.parse = pyimport "parse"
-.request = pyimport "request"
-.response = pyimport "response"
-.error = pyimport "error"

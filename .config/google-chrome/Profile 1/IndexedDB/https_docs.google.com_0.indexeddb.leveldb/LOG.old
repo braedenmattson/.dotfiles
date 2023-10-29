@@ -1,3 +1,16 @@
-2023/10/29-15:12:16.474 2bbe8 Reusing MANIFEST /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/10/29-15:12:16.474 2bbe8 Recovering log #31
-2023/10/29-15:12:16.495 2bbe8 Reusing old log /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000031.log 
+2023/10/29-16:27:16.437 3006b Reusing MANIFEST /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/29-16:27:16.438 3006b Recovering log #31
+2023/10/29-16:27:16.460 3006b Reusing old log /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000031.log 
+2023/10/29-16:27:17.445 3006b Level-0 table #38: started
+2023/10/29-16:27:17.470 3006b Level-0 table #38: 3126687 bytes OK
+2023/10/29-16:27:17.473 3006b Delete type=0 #31
+2023/10/29-16:27:17.724 3006c Compacting 1@1 + 3@2 files
+2023/10/29-16:27:17.759 3006c Generated table #39@1: 2131 keys, 2145983 bytes
+2023/10/29-16:27:17.817 3006c Generated table #40@1: 887 keys, 2144127 bytes
+2023/10/29-16:27:17.828 3006c Generated table #41@1: 2715 keys, 415451 bytes
+2023/10/29-16:27:17.828 3006c Compacted 1@1 + 3@2 files => 4705561 bytes
+2023/10/29-16:27:17.831 3006c compacted to: files[ 0 0 3 0 0 0 0 ]
+2023/10/29-16:27:17.831 3006c Delete type=2 #34
+2023/10/29-16:27:17.831 3006c Delete type=2 #35
+2023/10/29-16:27:17.831 3006c Delete type=2 #33
+2023/10/29-16:27:17.831 3006c Delete type=2 #38

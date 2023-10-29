@@ -1,2 +1,0 @@
-.register!: (func: GenericCallable, *args: Obj) => NoneType
-.unregister!: (func: GenericCallable) => NoneType

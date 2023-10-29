@@ -3,6 +3,7 @@ Downloads/wallpapers/
 writing
 dwm
 .zshenv
+.gitconfig
 .xbindkeysrc
 .pki
 .bash_logout

@@ -2,24 +2,40 @@
   <component name="RecentProjectsManager">
     <option name="additionalInfo">
       <map>
-        <entry key="$USER_HOME$/.config">
+        <entry key="/">
           <value>
-            <RecentProjectMetaInfo frameTitle="test.py – random_wall.py" opened="true" projectWorkspaceId="2VfmRveafciCi8tee8pqVnoZBsO">
-              <option name="activationTimestamp" value="1695246196723" />
+            <RecentProjectMetaInfo frameTitle="/" opened="true" projectWorkspaceId="2XOevOWj933H01EyxW4yFn9b3Pz">
+              <option name="activationTimestamp" value="1698504793182" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PC-232.9559.58" />
-              <option name="buildTimestamp" value="1692721027045" />
+              <option name="build" value="PC-232.10072.31" />
+              <option name="buildTimestamp" value="1697118233126" />
               <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="4" />
+                <RecentProjectColorInfo associatedIndex="5" />
               </option>
-              <frame x="1056" y="19" width="862" height="1059" />
+              <frame x="0" y="0" width="1920" height="1061" />
               <option name="productionCode" value="PC" />
-              <option name="projectOpenTimestamp" value="1695244156106" />
+              <option name="projectOpenTimestamp" value="1698504784668" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.config/nvim">
+          <value>
+            <RecentProjectMetaInfo frameTitle="nvim" opened="true" projectWorkspaceId="2XOeyc5ppqYygBe9mzAAd1iZ0WB">
+              <option name="activationTimestamp" value="1698506855126" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-232.10072.31" />
+              <option name="buildTimestamp" value="1697118204370" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="0" y="0" width="1056" height="1060" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1698504811154" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/.config" />
+    <option name="lastOpenedProject" value="$USER_HOME$/.config/nvim" />
   </component>
 </application>

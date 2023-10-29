@@ -1,0 +1,6 @@
+2023/10/28-07:43:28.742 32d8 Creating DB /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_www.barbarianmeetscoding.com_0.indexeddb.leveldb since it was missing.
+2023/10/28-07:43:28.749 32d8 Reusing MANIFEST /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_www.barbarianmeetscoding.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/28-07:44:36.600 32d9 Level-0 table #5: started
+2023/10/28-07:44:36.602 32d9 Level-0 table #5: 1459 bytes OK
+2023/10/28-07:44:36.606 32d9 Delete type=0 #3
+2023/10/28-07:44:36.606 32d9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,34 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="Cargo.AttachCargoProject">
+      <i c="1" l="1698507081664" />
+    </e>
+    <e n="Debug">
+      <i c="1" l="1698507294217" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1698507552585" />
+    </e>
+    <e n="ShowSettings">
+      <i c="4" l="1698507596143" />
+    </e>
+    <e n="Stop">
+      <i c="1" l="1698507688825" />
+    </e>
+    <e n="com.intellij.ide.ui.customization.CustomizableActionsPanel$RemoveAction">
+      <i c="4" l="1698507404606" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="2" l="1698507281643" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="2" l="1698507292218" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="4" l="1698507583008" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1698507202204" />
+    </e>
+  </component>
+</application>

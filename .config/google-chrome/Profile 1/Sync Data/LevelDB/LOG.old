@@ -1,0 +1,39 @@
+2023/10/28-08:01:20.141 ca8c Reusing MANIFEST /home/braeden/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2023/10/28-08:01:20.143 ca8c Recovering log #53
+2023/10/28-08:01:20.148 ca8c Reusing old log /home/braeden/.config/google-chrome/Profile 1/Sync Data/LevelDB/000053.log 
+2023/10/28-08:07:30.791 cac4 Level-0 table #57: started
+2023/10/28-08:07:30.797 cac4 Level-0 table #57: 100680 bytes OK
+2023/10/28-08:07:30.799 cac4 Delete type=0 #53
+2023/10/28-08:07:30.800 cac4 Compacting 4@0 + 1@1 files
+2023/10/28-08:07:30.806 cac4 Generated table #58@0: 185 keys, 18667 bytes
+2023/10/28-08:07:30.806 cac4 Compacted 4@0 + 1@1 files => 18667 bytes
+2023/10/28-08:07:30.809 cac4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/28-08:07:30.809 cac4 Delete type=2 #54
+2023/10/28-08:07:30.809 cac4 Delete type=2 #57
+2023/10/28-08:07:30.809 cac4 Delete type=2 #46
+2023/10/28-08:07:30.809 cac4 Delete type=2 #48
+2023/10/28-08:07:30.809 cac4 Delete type=2 #51
+2023/10/28-08:49:26.005 ca8c Level-0 table #60: started
+2023/10/28-08:49:26.010 ca8c Level-0 table #60: 103389 bytes OK
+2023/10/28-08:49:26.013 ca8c Delete type=0 #56
+2023/10/28-10:22:07.369 ca8a Level-0 table #62: started
+2023/10/28-10:22:07.375 ca8a Level-0 table #62: 92418 bytes OK
+2023/10/28-10:22:07.378 ca8a Delete type=0 #59
+2023/10/28-12:13:29.362 ca8a Level-0 table #64: started
+2023/10/28-12:13:29.367 ca8a Level-0 table #64: 97421 bytes OK
+2023/10/28-12:13:29.371 ca8a Delete type=0 #61
+2023/10/28-13:16:30.878 ca8a Level-0 table #66: started
+2023/10/28-13:16:30.894 ca8a Level-0 table #66: 102625 bytes OK
+2023/10/28-13:16:30.903 ca8a Delete type=0 #63
+2023/10/28-13:16:30.909 cac4 Compacting 4@0 + 1@1 files
+2023/10/28-13:16:30.931 cac4 Generated table #67@0: 186 keys, 14782 bytes
+2023/10/28-13:16:30.931 cac4 Compacted 4@0 + 1@1 files => 14782 bytes
+2023/10/28-13:16:30.935 cac4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/28-13:16:30.935 cac4 Delete type=2 #64
+2023/10/28-13:16:30.935 cac4 Delete type=2 #66
+2023/10/28-13:16:30.935 cac4 Delete type=2 #60
+2023/10/28-13:16:30.935 cac4 Delete type=2 #62
+2023/10/28-13:16:30.935 cac4 Delete type=2 #58
+2023/10/28-14:54:01.087 ca8c Level-0 table #69: started
+2023/10/28-14:54:01.092 ca8c Level-0 table #69: 103064 bytes OK
+2023/10/28-14:54:01.102 ca8c Delete type=0 #65

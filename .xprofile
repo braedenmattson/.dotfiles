@@ -1,7 +1,6 @@
 xbindkeys &
-xsetroot -name $STATUS &
 xwallpaper --zoom ~/.config/wall.png &
 picom -b &
 xinput set-prop 15 "Device Enabled" 0 &
 xset r rate 250 15 &
-sh ~/.config/scripts/statusbar.sh &
+dwmbar &

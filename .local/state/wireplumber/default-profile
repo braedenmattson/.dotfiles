@@ -1,0 +1,3 @@
+[default-profile]
+alsa_card.pci-0000_00_1f.3-platform-sof-essx8336.5=HiFi
+alsa_card.pci-0000_00_1f.3-platform-sof-essx8336=pro-audio

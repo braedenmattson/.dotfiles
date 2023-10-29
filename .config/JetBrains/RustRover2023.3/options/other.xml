@@ -1,0 +1,55 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "BuildView.Splitter.Proportion": "0.02097902",
+    "CRATES_IO_INDEX_LAST_UPDATE": "1698507586631",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "2",
+    "RunOnceActivity.rust.first.ide.run": "true",
+    "appcds.runOnSecondStart": "RR-233.8264.32-8efedb2a89a1b79261d927f5215816f26d3fbb8fa9f2a7cd5b17ff6c4d6f9cf4",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "bundled.plugins.list.saved.version": "RR-233.8264.32",
+    "com.jetbrains.rust.LAST_UPDATE": "1698507074880",
+    "com.jetbrains.rust.LAST_VERSION": "233.18264.32",
+    "evlsprt3.RR-233.8264.32": "7",
+    "experimental.ui.used.version": "233.8264.32",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "gotit.previous.run": "RR-233.8264.32",
+    "ide.memory.adjusted": "true",
+    "input.method.disabler.muted": "true",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Dark",
+    "registry.to.advanced.settings.migration.build": "RR-233.8264.32",
+    "tasks.pass.word.conversion.enforced": "true",
+    "ts.lib.d.ts.version": "5.1.3"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/braeden/projects/brain_model/network/kuramoto/src"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ShownTips"><![CDATA[{
+  "shownTips": {
+    "SearchEverywhere": 1698507190170
+  },
+  "proposedTips": {
+    "SearchEverywhere": 1698507189202
+  },
+  "tipsOrderSeed": 1698507189022
+}]]></component>
+</application>

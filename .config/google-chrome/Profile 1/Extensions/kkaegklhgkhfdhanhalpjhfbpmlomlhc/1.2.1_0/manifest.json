@@ -1,0 +1,20 @@
+{
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_popup": "popup.html"
+   },
+   "description": "Compile your tabs into Sessions.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqybwlQJ+1wsDP7b3cgLz2b73d4+dM32AxgWu026G18AxF/CbHVkxrWXw1KwJ7FEtH0Se6LpxarzuVyxyNG3p8lkwE9OIGhGXUo1buu8HduCiUX0AzOgrVeaPxEuPnxgkxRJoAAHnBiUcQSI+XjswRRhvWdNqWYx6yZITpRNgktop3FfnbAgbN47tqGb2uQcgw3026x3g4+UNkzHy/zB39MMssr1b2rH0W6f226QueYZdiDafIhrF+k6wMNOLZptBJX2LcIcpaO1qD8QBuFFzo8UDrkj+W9iZGaLqZgROrGvbJOfdZtzIB+TKJiqdWEP88FkWQ3Jcup24m5KNwSVs7wIDAQAB",
+   "manifest_version": 2,
+   "name": "Sessions for Google Chrome™",
+   "permissions": [ "tabs", "storage" ],
+   "short_name": "Sessions",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.1"
+}

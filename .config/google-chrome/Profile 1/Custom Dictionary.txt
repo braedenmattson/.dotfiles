@@ -1,0 +1,2 @@
+competetive
+checksum_v1 = 0c10f219891564277bc8c406766f2399

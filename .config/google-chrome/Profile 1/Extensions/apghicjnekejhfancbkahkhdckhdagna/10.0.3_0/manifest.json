@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "main.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icon19.png",
+         "38": "icon38.png"
+      }
+   },
+   "description": "A link to the DIM website which provides a robust interface to manage items in Destiny.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuXAeME2bFZP0HaxMyLMSvbRSj6MQpaWatzVlH/UfRykcz9N5wKlOYqq7tJ6NfV7dwZclMMo8zY81AAh4hy/5dDusGE1gSmrKRU7ylUYmrT47OYyA4iTNHaMX/diUtKf2Qs58l7AeAiq0+OHK6Shgh6uBietlfosBh/7e83/bEWY7z/dYfyvGOwuwxOiC0lAuaK29lTDz4ujrxcslZ/zTTcjPbDJ3Jek0rP1Gr1oArkgmyw/XiylAoxJW0zvrY8LN3w547PDDQ+70/zcB5UczrPsDmHu4iEsj7wxNU7xsXtBXw5iu8ORQ686KYqBEDV3ayDueKsblnjAGywXUixx7owIDAQAB",
+   "manifest_version": 2,
+   "name": "Destiny Item Manager Shortcut",
+   "short_name": "DIM",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "10.0.3"
+}

@@ -5,6 +5,7 @@ vim.cmd.packadd('packer.nvim')
 
 return require('packer').startup(function(use)
   -- Packer can manage itself
+  use 'wbthomason/packer.nvim'
   use({
     "kylechui/nvim-surround",
     tag = "*", -- Use for stability; omit to use `main` branch for the latest features
@@ -14,7 +15,14 @@ return require('packer').startup(function(use)
         })
     end
 })
-  use 'wbthomason/packer.nvim'
+use 'ThePrimeagen/git-worktree.nvim'
+use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+    require("toggleterm").setup()
+end}
+use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+}
   use 'haya14busa/incsearch.vim'
   use 'easymotion/vim-easymotion'
   use {
@@ -24,13 +32,13 @@ return require('packer').startup(function(use)
   },
 }
 
-  use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.0',
-	  -- or                            , branch = '0.1.x',
-	  requires = { {'nvim-lua/plenary.nvim'} }
-  }
+use {
+  'nvim-telescope/telescope.nvim', tag = '0.1.4',
+-- or                            , branch = '0.1.x',
+  requires = { {'nvim-lua/plenary.nvim'} }
+}
 
-  use({
+use({
 	  'ellisonleao/gruvbox.nvim',
 	  as = 'gruvbox',
 	  config = function()
@@ -57,7 +65,6 @@ return require('packer').startup(function(use)
 				ts_update()
 			end,}
   use("nvim-treesitter/playground")
-  use("theprimeagen/harpoon")
   use("theprimeagen/refactoring.nvim")
   use("mbbill/undotree")
   use("tpope/vim-fugitive")

@@ -1,0 +1,6 @@
+2023/10/28-12:53:44.150 ca89 Creating DB /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_www.neurotrackerx.com_0.indexeddb.leveldb since it was missing.
+2023/10/28-12:53:44.156 ca89 Reusing MANIFEST /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_www.neurotrackerx.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/28-12:55:28.658 ca8a Level-0 table #5: started
+2023/10/28-12:55:28.660 ca8a Level-0 table #5: 832 bytes OK
+2023/10/28-12:55:28.662 ca8a Delete type=0 #3
+2023/10/28-12:55:28.663 ca8a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

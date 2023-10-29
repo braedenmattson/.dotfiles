@@ -1,0 +1,188 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="kuramoto" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/main.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="Rust">
+      <summary usageCount="1" lastUsed="1698507290020" />
+    </fileType>
+  </component>
+  <component name="GitBranchesPopupTreeState">
+    <expand>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="LOCAL" type="ae103dac:GitBranchType" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Rust">
+      <summary usageCount="1" lastUsage="1698507290025" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kuramoto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/braeden/projects/brain_model/network/kuramoto}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kuramoto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/braeden/projects/brain_model/network/kuramoto}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/braeden/projects/brain_model/network/kuramoto/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Cargo.Run kuramoto" />
+    </history>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="673000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2703125" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Build" order="4" weight="0.9108491" />
+      <window_info anchor="bottom" id="Debug" order="4" show_stripe_button="false" weight="0.91462266" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Cargo" order="5" weight="0.2" />
+      <window_info anchor="right" id="RustCargo" order="6" weight="0.2" />
+      <unified_weights bottom="0.91462266" left="0.2703125" />
+    </layoutV2>
+    <recentWindows>
+      <value>Debug</value>
+      <value>Build</value>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="412" height="937" key="GridCell.Tab.0.bottom" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.0.center" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.0.left" timestamp="1698507857836">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857836" />
+    <state width="412" height="937" key="GridCell.Tab.0.right" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.1.bottom" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.1.center" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.1.left" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.1.right" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.2.bottom" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.2.center" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.2.left" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.2.right" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.3.bottom" timestamp="1698507857838">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.3.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857838" />
+    <state width="412" height="937" key="GridCell.Tab.3.center" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.3.center/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.3.left" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.3.left/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state width="412" height="937" key="GridCell.Tab.3.right" timestamp="1698507857837">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="412" height="937" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1698507857837" />
+    <state x="938" y="180" key="SettingsEditor" timestamp="1698507658446">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="938" y="180" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1698507658446" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

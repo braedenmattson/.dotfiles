@@ -1,0 +1,6 @@
+2023/10/28-17:44:14.145 3115 Reusing MANIFEST /home/braeden/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2023/10/28-17:44:14.155 3115 Recovering log #68
+2023/10/28-17:44:14.158 3115 Reusing old log /home/braeden/.config/google-chrome/Profile 1/Sync Data/LevelDB/000068.log 
+2023/10/28-18:18:08.563 309a Level-0 table #72: started
+2023/10/28-18:18:08.568 309a Level-0 table #72: 98015 bytes OK
+2023/10/28-18:18:08.572 309a Delete type=0 #68

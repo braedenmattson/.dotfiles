@@ -1,0 +1,43 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/projects/brain_model/network/kuramoto/src">
+          <value>
+            <RecentProjectMetaInfo frameTitle="src – main.rs" opened="true" projectWorkspaceId="2XOjWGiN44Icqj7ZTqvclC7IkXq">
+              <option name="activationTimestamp" value="1698507126856" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RR-233.8264.32" />
+              <option name="buildTimestamp" value="1698072398290" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <option name="eap" value="true" />
+              <frame x="767" y="0" width="1153" height="1060" />
+              <option name="productionCode" value="RR" />
+              <option name="projectOpenTimestamp" value="1698507052185" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/projects/brain_model/network/kuramoto">
+          <value>
+            <RecentProjectMetaInfo frameTitle="kuramoto – main.rs" opened="true" projectWorkspaceId="2XOjmjP8fZvc2PIsgRp6ljlX6Q6">
+              <option name="activationTimestamp" value="1698507857858" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RR-233.8264.32" />
+              <option name="buildTimestamp" value="1698072415194" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <option name="eap" value="true" />
+              <frame x="1440" y="0" width="480" height="1060" />
+              <option name="productionCode" value="RR" />
+              <option name="projectOpenTimestamp" value="1698507182935" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/projects/brain_model/network/kuramoto" />
+  </component>
+</application>

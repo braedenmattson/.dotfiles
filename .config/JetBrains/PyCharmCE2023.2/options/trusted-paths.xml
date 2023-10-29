@@ -2,7 +2,9 @@
   <component name="Trusted.Paths">
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
+        <entry key="/" value="true" />
         <entry key="$USER_HOME$/.config" value="true" />
+        <entry key="$USER_HOME$/.config/nvim" value="true" />
       </map>
     </option>
   </component>

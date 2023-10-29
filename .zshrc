@@ -9,9 +9,15 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/braeden/.zshrc'
 
+
+#status bar
+#xsetroot -name $STATUS &
+#sh ~/.config/scripts/statusbar.sh &
+#
 #fzf
 export FZF_DEFAULT_OPTS='--bind=ctrl-k:up,ctrl-j:down'
 #variables
+export SHELL=/usr/bin/zsh
 
 # pywal
 # (cat ~/.cache/wal/sequences &)
@@ -25,6 +31,8 @@ compinit
 . "$HOME/.cargo/env"
 
 #aliases
+alias sshadd='eval "$(ssh-agent -s)" && ssh-add ~/.credentials.git'
+alias cphome='sh ~/.config/scripts/savehome.sh'
 alias blueztui='bluetuith'
 alias newt='tmux attach -t projects'
 alias start='tmux new -s projects -c ~/projects'
@@ -41,7 +49,6 @@ alias hx='helix'
 alias shx='sudo helix'
 alias randbg='sudo python3 $HOME/.config/scripts/change_wall.py'
 alias img='nsxiv'
-alias spotify='sh ~/.config/scripts/spotify.sh'
 alias chrome='devour google-chrome-stable'
 alias edge='devour microsoft-edge-stable'
 alias discord='devour flatpak run com.discordapp.Discord'
@@ -76,11 +83,11 @@ PS1='%F{blue}%~ %(?.%F{green}.%F{red})%#%f '
 # fi
 # unset __conda_setup
 # <<< conda initialize <<<
-bindkey -s '^o' 'tmux switch -t$(echo $(tmux list-sessions | fzf | cut -d ":" -f1))^M'
 bindkey -M viins '^f' vi-cmd-mode
 
-source /home/braeden/.config/broot/launcher/bash/br
+#source $HOME/.local/share/broot/launcher/bash/1
 
 #PATH
 
+export HOME=/home/braeden
 export PATH=$PATH:/home/braeden/mblocks/target/release

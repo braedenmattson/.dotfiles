@@ -8,4 +8,4 @@ dir = f'{os.getcwd()}/{sys.argv[1]}'
 wallpapers = os.listdir(f'{dir}')
 wallpaper = random.choice(wallpapers)
 wall = f'{dir}/{wallpaper}'
-os.system("cp %s ~/.config/wall.png && xwallpaper --zoom ~/.config/wall.png" % wall)
+os.system("cp %s /home/braeden/.config/wall.png && xwallpaper --zoom /home/braeden/.config/wall.png" % wall)

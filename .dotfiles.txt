@@ -1,10 +1,11 @@
 .fonts
 Downloads/wallpapers/
 writing
+dwm
+.zshenv
 .xbindkeysrc
 .pki
 .bash_logout
-.cargo
 .xprofile
 .credentials.git.pub
 .zcompdump

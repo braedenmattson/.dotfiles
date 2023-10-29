@@ -1,6 +1,3 @@
-2023/10/28-09:28:07.787 ca8a Reusing MANIFEST /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/10/28-09:28:07.788 ca8a Recovering log #3
-2023/10/28-09:28:07.812 ca8a Reusing old log /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
-2023/10/28-12:03:01.069 ca8a Level-0 table #5: started
-2023/10/28-12:03:01.087 ca8a Level-0 table #5: 1514697 bytes OK
-2023/10/28-12:03:01.091 ca8a Delete type=0 #3
+2023/10/29-14:54:28.648 18b44 Reusing MANIFEST /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/29-14:54:28.649 18b44 Recovering log #7
+2023/10/29-14:54:28.676 18b44 Reusing old log /home/braeden/.config/google-chrome/Profile 1/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 

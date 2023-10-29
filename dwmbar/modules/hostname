@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Prints USER@hostname
+
+PREFIX=$(echo -e' \uf323')
+
+get_hostname()
+{
+    echo "$PREFIX$USER@$(hostname)"
+}
+
+get_hostname

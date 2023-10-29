@@ -162,3 +162,23 @@ clear
 startx
 startxx
 startx
+startx
+startx
+startx
+start
+startx
+vim .xinitrc 
+nvim .xinitrc 
+clear
+nvim .xprofile 
+clear
+vim .xinitrc 
+nvim .xinitrc 
+nvim .xprofile 
+nvim .xinitrc 
+clear
+startx
+nvim .xprofile 
+clear
+startx
+startx

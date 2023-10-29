@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Prints out the volume percentage
+
+# Dependencies: bc
+
+VOLUME_WIDTH=9
+VOLUME_SLIDER='⬤'
+VOLUME_RAIL='◯'
+VOLUME_MUTED='muted'
+
+PREFIX=''
+
+# If volume is >100
+ALERT='!!!'
+
+get_volume(){
+        volume=$(awk -F"[][]" '/Left:/ { print $2 }' <(amixer sget Master))
+		slider_position=$(python -c "print(($volume / 100) * $VOLUME_WIDTH)")
+
+        if [ "${curStatus}" = 'yes' ]
+        then
+            echo "$VOLUME_MUTED"
+			exit 0
+        else
+			for i in $(seq 1 $VOLUME_WIDTH); do
+				[[ $i = $slider_position ]] && BAR=$BAR$VOLUME_SLIDER
+				[[ $i < $slider_position ]] && BAR=$BAR$VOLUME_SLIDER
+				[[ $i > $slider_position ]] && BAR=$BAR$VOLUME_RAIL
+			done
+        fi
+
+        [[ $(awk -d'$' $volume -f1) -gt 100 ]] && PREFIX=$PREFIX$ALERT
+
+		echo "$PREFIX$BAR"
+}
+
+get_volume

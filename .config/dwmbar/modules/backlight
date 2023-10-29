@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Prints the backlight percentage
+# Requires the light package
+
+PREFIX='ﯧ'
+
+echo "$PREFIX $(light)%"
+

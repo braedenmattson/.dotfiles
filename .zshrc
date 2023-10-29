@@ -31,8 +31,9 @@ compinit
 . "$HOME/.cargo/env"
 
 #aliases
+alias svim='sudoedit'
 alias sshadd='eval "$(ssh-agent -s)" && ssh-add ~/.credentials.git'
-alias cphome='sh ~/.config/scripts/savehome.sh'
+alias savehome='sh ~/.config/scripts/savehome.sh'
 alias blueztui='bluetuith'
 alias newt='tmux attach -t projects'
 alias start='tmux new -s projects -c ~/projects'

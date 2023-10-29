@@ -1,50 +1,9 @@
-2023/10/28-17:44:15.347 3115 Reusing MANIFEST /home/braeden/.config/google-chrome/Profile 1/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
-2023/10/28-17:44:15.347 3115 Recovering log #284
-2023/10/28-17:44:15.356 3115 Reusing old log /home/braeden/.config/google-chrome/Profile 1/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000284.log 
-2023/10/28-17:45:30.419 309a Level-0 table #290: started
-2023/10/28-17:45:30.443 309a Level-0 table #290: 1815843 bytes OK
-2023/10/28-17:45:30.448 309a Delete type=0 #284
-2023/10/28-17:45:34.849 309a Level-0 table #292: started
-2023/10/28-17:45:34.886 309a Level-0 table #292: 2302205 bytes OK
-2023/10/28-17:45:34.889 309a Delete type=0 #289
-2023/10/28-17:59:11.030 309a Level-0 table #294: started
-2023/10/28-17:59:11.060 309a Level-0 table #294: 2303709 bytes OK
-2023/10/28-17:59:11.064 309a Delete type=0 #291
-2023/10/28-18:04:10.186 309a Level-0 table #296: started
-2023/10/28-18:04:10.213 309a Level-0 table #296: 1797814 bytes OK
-2023/10/28-18:04:10.216 309a Delete type=0 #293
-2023/10/28-18:04:10.217 309a Compacting 4@0 + 2@1 files
-2023/10/28-18:04:10.284 309a Generated table #297@0: 15 keys, 2395646 bytes
-2023/10/28-18:04:10.286 309a Generated table #298@0: 1 keys, 267 bytes
-2023/10/28-18:04:10.286 309a Compacted 4@0 + 2@1 files => 2395913 bytes
-2023/10/28-18:04:10.289 309a compacted to: files[ 0 2 1 0 0 0 0 ]
-2023/10/28-18:04:10.289 309a Delete type=2 #290
-2023/10/28-18:04:10.289 309a Delete type=2 #296
-2023/10/28-18:04:10.289 309a Delete type=2 #287
-2023/10/28-18:04:10.289 309a Delete type=2 #292
-2023/10/28-18:04:10.289 309a Delete type=2 #286
-2023/10/28-18:04:10.289 309a Delete type=2 #294
-2023/10/28-18:07:34.451 309a Level-0 table #300: started
-2023/10/28-18:07:34.492 309a Level-0 table #300: 3425340 bytes OK
-2023/10/28-18:07:34.497 309a Delete type=0 #295
-2023/10/28-18:08:04.985 3113 Level-0 table #302: started
-2023/10/28-18:08:05.007 3113 Level-0 table #302: 1885459 bytes OK
-2023/10/28-18:08:05.010 3113 Delete type=0 #299
-2023/10/28-18:16:49.645 309a Level-0 table #304: started
-2023/10/28-18:16:49.665 309a Level-0 table #304: 1797799 bytes OK
-2023/10/28-18:16:49.668 309a Delete type=0 #301
-2023/10/28-18:17:49.993 3113 Level-0 table #306: started
-2023/10/28-18:17:50.011 3113 Level-0 table #306: 1794678 bytes OK
-2023/10/28-18:17:50.014 3113 Delete type=0 #303
-2023/10/28-18:17:50.015 3113 Compacting 4@0 + 1@1 files
-2023/10/28-18:17:50.060 3113 Generated table #307@0: 15 keys, 2395617 bytes
-2023/10/28-18:17:50.060 3113 Compacted 4@0 + 1@1 files => 2395617 bytes
-2023/10/28-18:17:50.063 3113 compacted to: files[ 0 2 1 0 0 0 0 ]
-2023/10/28-18:17:50.063 3113 Delete type=2 #306
-2023/10/28-18:17:50.063 3113 Delete type=2 #304
-2023/10/28-18:17:50.063 3113 Delete type=2 #302
-2023/10/28-18:17:50.063 3113 Delete type=2 #300
-2023/10/28-18:17:50.063 3113 Delete type=2 #297
-2023/10/28-18:19:24.479 309a Level-0 table #309: started
-2023/10/28-18:19:24.496 309a Level-0 table #309: 1794689 bytes OK
-2023/10/28-18:19:24.499 309a Delete type=0 #305
+2023/10/29-15:15:46.846 3006b Reusing MANIFEST /home/braeden/.config/google-chrome/Profile 1/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
+2023/10/29-15:15:46.847 3006b Recovering log #457
+2023/10/29-15:15:46.860 3006b Reusing old log /home/braeden/.config/google-chrome/Profile 1/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000457.log 
+2023/10/29-15:16:08.239 3006c Level-0 table #462: started
+2023/10/29-15:16:08.294 3006c Level-0 table #462: 1797643 bytes OK
+2023/10/29-15:16:08.297 3006c Delete type=0 #457
+2023/10/29-15:16:17.536 3006c Level-0 table #464: started
+2023/10/29-15:16:17.563 3006c Level-0 table #464: 2078063 bytes OK
+2023/10/29-15:16:17.566 3006c Delete type=0 #461

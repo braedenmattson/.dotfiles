@@ -10,10 +10,10 @@
 "xbacklight -inc 5"
 	XF86MonBrightnessUp
  #Increase volume
-"amixer sset 'Master' 5%+"
+"pulsemixer --change-volume +5"
 	Control + KP_Up
 # Decrease volume
-"amixer sset 'Master' 5%-"
+"pulsemixer --change-volume -5"
    Control + KP_Down
 KeyboardPrev
 "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"

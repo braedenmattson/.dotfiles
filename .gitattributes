@@ -1,0 +1,4 @@
+.config filter=lfs diff=lfs merge=lfs -text
+.cargo filter=lfs diff=lfs merge=lfs -text
+.local filter=lfs diff=lfs merge=lfs -text
+.rustup filter=lfs diff=lfs merge=lfs -text

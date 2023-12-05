@@ -1,0 +1,14 @@
+alacritty v0.12.3:
+    alacritty
+bacon v2.14.0:
+    bacon
+binstall v0.1.0:
+    binstall
+du-dust v0.8.6:
+    dust
+exa v0.10.1:
+    exa
+ripgrep v13.0.0:
+    rg
+sccache v0.7.3:
+    sccache

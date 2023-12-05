@@ -1,0 +1,25 @@
+#KeyboardPlay
+"flameshot gui"
+     Mod4 + s
+"dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
+     Control + KP_Home
+#"$HOME/.config/volumecontrol.sh mute"
+#brightness
+"xbacklight -dec 5"
+	XF86MonBrightnessDown
+"xbacklight -inc 5"
+	XF86MonBrightnessUp
+ #Increase volume
+"pulsemixer --change-volume +5"
+	Control + KP_Up
+# Decrease volume
+"pulsemixer --change-volume -5"
+   Control + KP_Down
+KeyboardPrev
+"dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
+  Control + KP_Left
+
+#KeyboardNext
+"dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+  Control + KP_Right
+##### Now run xbindkeys and put '/usr/bin/xbindkeys' in 'startup applications' for your user account

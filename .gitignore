@@ -1,0 +1,6 @@
+.dotfiles
+.git/
+.cache
+discord/
+google-chrome/
+alacritty-color-export/

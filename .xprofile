@@ -1,0 +1,6 @@
+xbindkeys &
+xwallpaper --zoom ~/.config/wall.png &
+xset r rate 250 13 &
+xinput disable 15 &
+picom -b &
+dwmbar &

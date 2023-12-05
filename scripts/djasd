@@ -1,0 +1,49 @@
+[38;5;246;03m#  One is a class attribute, while the other is an instance attribute.[39;00m
+[38;5;246;03m#  They are different, but they are closely related to one another in[39;00m
+[38;5;246;03m#  ways that make them look the same at times.[39;00m
+[38;5;246;03m#  [39;00m
+[38;5;246;03m#  It has to do with the way python looks up attributes. There's a[39;00m
+[38;5;246;03m#  hierarchy. In simple cases it might look like this:[39;00m
+
+[38;5;252m [39m[38;5;252minstance[39m[38;5;252m [39m[38;5;252m-[39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mSubclass[39m[38;5;252m [39m[38;5;252m-[39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mSuperclass[39m[38;5;252m [39m[38;5;252m-[39m[38;5;252m>[39m[38;5;252m [39m[38;5;31mobject[39m[38;5;252m [39m[38;5;252m([39m[38;5;252mbuilt[39m[38;5;252m-[39m[38;5;70;01min[39;00m[38;5;252m [39m[38;5;31mtype[39m[38;5;252m)[39m
+
+[38;5;246;03m#  When you look for an attribute on `instance` like this...[39;00m
+
+[38;5;252m [39m[38;5;124;48;5;188m`[39;49m[38;5;252minstance[39m[38;5;252m.[39m[38;5;252mval[39m[38;5;124;48;5;188m`[39;49m
+
+[38;5;246;03m#  ...what actually happens is that _first_, Python looks for `val` in[39;00m
+[38;5;246;03m#  the instance itself. Then, if it doesn't find `val`, it looks in its[39;00m
+[38;5;246;03m#  class, `Subclass`. Then, if it doesn't find `val` there, it looks in[39;00m
+[38;5;246;03m#  the parent of `Subclass`, `Superclass`. This means that when you do[39;00m
+[38;5;246;03m#  this...[39;00m
+
+[38;5;252m [39m[38;5;252m>>[39m[38;5;252m>[39m[38;5;252m [39m[38;5;70;01mclass[39;00m[38;5;252m [39m[38;5;68;04mFoo[39;00m[38;5;252m([39m[38;5;252m)[39m[38;5;252m:[39m
+[38;5;252m     [39m[38;5;252mfoovar[39m[38;5;252m [39m[38;5;252m=[39m[38;5;252m [39m[38;5;67m10[39m[38;5;252m  [39m
+[38;5;252m     [39m[38;5;70;01mdef[39;00m[38;5;252m [39m[38;5;68m__init__[39m[38;5;252m([39m[38;5;31mself[39m[38;5;252m,[39m[38;5;252m [39m[38;5;252mval[39m[38;5;252m)[39m[38;5;252m:[39m
+[38;5;252m         [39m[38;5;31mself[39m[38;5;252m.[39m[38;5;252mselfvar[39m[38;5;252m [39m[38;5;252m=[39m[38;5;252m [39m[38;5;252mval[39m
+
+[38;5;246;03m#  ...all instances of `Foo` _share_ `foovar`, but have their own[39;00m
+[38;5;246;03m#  distinct `selfvar`s. Here's a simple, concrete example of how that[39;00m
+[38;5;246;03m#  works:[39;00m
+
+[38;5;252m [39m[38;5;252m>>[39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mf[39m[38;5;252m [39m[38;5;252m=[39m[38;5;252m [39m[38;5;252mFoo[39m[38;5;252m([39m[38;5;67m5[39m[38;5;252m)[39m
+[38;5;252m [39m[38;5;252m>>[39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mf[39m[38;5;252m.[39m[38;5;252mfoovar[39m
+[38;5;252m [39m[38;5;67m10[39m
+[38;5;252m [39m[38;5;252m>>[39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mFoo[39m[38;5;252m.[39m[38;5;252mfoovar[39m
+[38;5;252m [39m[38;5;67m10[39m
+
+[38;5;246;03m#  If we don't touch `foovar`, it's the same for both `f` and `Foo`. But[39;00m
+[38;5;246;03m#  if we change `f.foovar`...[39;00m
+
+[38;5;252m [39m[38;5;252m>>[39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mf[39m[38;5;252m.[39m[38;5;252mfoovar[39m[38;5;252m [39m[38;5;252m=[39m[38;5;252m [39m[38;5;67m5[39m
+[38;5;252m [39m[38;5;252m>>[39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mf[39m[38;5;252m.[39m[38;5;252mfoovar[39m
+[38;5;252m [39m[38;5;67m5[39m
+[38;5;252m [39m[38;5;252m>>[39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mFoo[39m[38;5;252m.[39m[38;5;252mfoovar[39m
+[38;5;252m [39m[38;5;67m10[39m
+
+[38;5;246;03m#  ...we add an instance attribute that effectively masks the value of[39;00m
+[38;5;246;03m#  `Foo.foovar`. Now if we change `Foo.foovar` directly, it doesn't[39;00m
+[38;5;246;03m#  affect our `foo` instance:[39;00m
+
+[38;5;252m [39m[38;5;252m>>[39m[38;5;252m>[39m[38;5;252m [39m[38;5;252mFoo[39m[38;5;252m.[39m[38;5;252mfoovar[39m[38;5;252m [39m[38;5;252m=[39m[38;5;252m [39m[38;5;67m7[39m
+[38;5;252m [39m[38;5;252m>>

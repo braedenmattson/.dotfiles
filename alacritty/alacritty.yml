@@ -1,0 +1,52 @@
+env:
+  TERM: xterm-256color
+
+window:
+  opacity : 1
+
+font:
+  normal:
+    family: JetBrainsMonoNL Nerd Font Mono
+    style: Regular
+
+  bold:
+    family: JetBrainsMonoNL Nerd Font Mono
+    style: Bold
+
+  italic:
+    family: JetBrainsMonoNL Nerd Font Mono
+    style: Italic
+shell:
+  program: /usr/bin/zsh
+  args:
+    - --login
+#theme
+import:
+ - ~/.config/alacritty/themes/themes/smoooooth.yaml
+# BEGIN ACE
+#colors:
+#  primary:
+#    background: '#090c0c'
+#    foreground: '#9bcfce'
+#  cursor:
+#    text:       '#090c0c'
+#    cursor:     '#9bcfce'
+#  normal:
+#    black:      '#090c0c'
+#    red:        '#1D5153'
+#    green:      '#314E4B'
+#    yellow:     '#51645A'
+#    blue:       '#648776'
+#    magenta:    '#868F70'
+#    cyan:       '#689F93'
+#    white:      '#9bcfce'
+#  bright:
+#    black:      '#6c9090'
+#    red:        '#1D5153'
+#    green:      '#314E4B'
+#    yellow:     '#51645A'
+#    blue:       '#648776'
+#    magenta:    '#868F70'
+#    cyan:       '#689F93'
+#    white:      '#9bcfce'
+## END ACE

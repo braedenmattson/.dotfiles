@@ -1,0 +1,43 @@
+theme = "gruvbox_dark_hard"
+#pywall
+# theme = "base16_default"
+[editor]
+line-number = "relative"
+mouse = false
+shell =["zsh", "-c"]
+[editor.lsp]
+display-signature-help-docs= true
+auto-signature-help= false
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline] 
+left = ["mode","file-name" ,"spinner","diagnostics"]
+center = ["selections","position-percentage"]
+right = ["position","total-line-numbers"]
+ 
+[keys.normal.space]
+l = ":wq"
+q = ":q!"
+
+[keys.insert]
+C-f = "normal_mode"
+
+[keys.normal]
+C-s = ":w"
+
+[keys.normal.c]
+h = "goto_line_start"
+l ="goto_line_end"
+e = "goto_last_line"
+w ="goto_file_start"
+
+[keys.select.c]
+h = "goto_line_start"
+l ="goto_line_end"
+e = "goto_last_line"
+w ="goto_file_start"
+[keys.select]
+C-f="normal_mode"

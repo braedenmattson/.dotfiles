@@ -1,0 +1,7 @@
+vim.keymap.set("n", "<leader>rn", ":w|term g++ -o % run && ./run<cr> dir=% direction = tab<cr>")
+vim.keymap.set("n", "<C-x>", "0xxj<cr>")
+vim.keymap.set("n", "<leader>rm", ":w|term g++ -o % run && ./run<cr> dir=% direction = horizontal<cr>")
+vim.keymap.set("v", "<C-x>", ":norm 0xxj")
+vim.keymap.set("v", "<C-c>", ":norm 0i#<esc>j")
+vim.keymap.set("n", "<C-c>", "0i#<esc>j")
+vim.keymap.set("i", "<C-c>", "<esc>0i#<esc>j")
